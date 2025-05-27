@@ -1,0 +1,120 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+img {
+    height: 200px;
+    width: 450px;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+}
+#pingPongGame {
+    
+    box-shadow:2px 2px 1px rgb(226, 225, 225), -2px 1px rgb(226, 225, 225);
+    
+}
+
+#scoreKeeper {
+    margin: 0 10px;
+    padding: 10px 0;
+}
+
+
+#heading {
+    box-shadow: 0 2px 1px rgb(226, 225, 225);
+    margin:0;
+    padding: 1px 0px;
+}
+h1 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+
+}
+h2 {
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p {
+    margin: 0 0;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#number {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#player1 {
+    background-color:rgb(99, 231, 198);
+    color: white;
+}
+#player1:hover {
+    background-color:rgb(20, 229, 177);
+    
+}
+
+#player2 {
+    background-color: rgb(70, 171, 244);
+    color: white;
+}
+#player2:hover {
+    background-color: rgb(20, 144, 233);
+    
+}
+
+#reset {
+    background-color: rgb(248, 91, 96);
+    color: white;
+}
+#reset:hover {
+    background-color: rgb(234, 40, 47);
+    
+}
+  
+
+select {
+    margin-top: 10px;
+    border-radius: 40px;
+    padding:  0px 2px;
+}
+
+
+#player2.freeze{
+ background-color: rgb(70, 171, 244);
+ opacity: 40%;
+}
+#player1.freeze{
+    background-color:rgb(99, 231, 198);
+     opacity: 40%;
+
+
+}
